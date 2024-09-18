@@ -4,7 +4,6 @@
 ---
 
 ## HTML Introduction
-
 ## HTML Basics
 ## HTML Formatting
 ## HTML Table
