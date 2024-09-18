@@ -4,6 +4,29 @@
 ---
 
 ## HTML Introduction
+
+### HTML Basic Layout:
+
+        <html>
+        <head>
+          <title> Page Title </title>
+        </head>
+        <body>
+          <h1> Heading </h1>
+          <p> Paragraph </p>
+        </body>
+        </html>
+
+### HTML Versions:
+ <img src="https://www.tutorialspoint.com/html/images/html-version-release-year.jpg" alt="HTML Versions">
+
+### Parts of HTML:
+Tags - <tag> Content.... </tag>
+
+Attributes - `<tag attribute="key: value;">` or `<tag attribute="value;">`
+
+Elements - `<tag attribute="key: value;"> Content.... </tag>` or Tag + Attribute
+
 ## HTML Basics
 ## HTML Formatting
 ## HTML Table
