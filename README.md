@@ -79,11 +79,21 @@ Contains Body content
 ### View HTML Source Code:
 View HTML Source Code:
 
-Click <mark>CTRL + U</mark> in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
+Click <kbd>CTRL + U</kbd> in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
 
 Inspect an HTML Element:
 
 Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+
+### Comments:
+        <!-- comment -->
+Shortcut - <kbd>CTRL + /<kbd/>
+
+### Blocks Elements:
+`<h1>----<h6>` `<p>` `<div>` `<hr>` `<header>` `<nav>` `<main>` `<footer>` `<section>` `<article>` `<ul>` `<ol>` `<li>` `<dl>` `<dt>` `<dd>` `<table>` `<form>`
+
+### Inline Elements:
+`<a>` `<span>` `<img>` `<br>` `<button>` `<input>` `<select>` `<b>` `<i>` `<q>` `<sub>` `<sup>` `<textarea>`
 
 ## HTML Formatting
 ## HTML Table
