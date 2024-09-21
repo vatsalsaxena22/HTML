@@ -10,78 +10,104 @@
       type="image/x-icon"
     />
     <style>
-      body{
+      body {
         background-color: rgb(177, 177, 177);
       }
-        header{
-            text-align: center;
-        }
-        header img{
-            width: 100px;
-        }
-        div{
-          border: 1px solid black;
-          border-radius: 20px;
-          background-color: white;
-          margin: 20px;
-          padding: 20px;
-        }
-        pre{
-          background-color: black;
-          color: lightgreen;
-          padding-top: 10px;
-        }
-        code{
-          background-color: #ddd;
-          border: 1px solid black;
-          border-radius: 20px;
-          padding: 5px;
-          font-weight: bold;
-        }
-        kbd{
-          border: 1px solid black;
-          padding: 2px;
-          background-color: lightblue;
-        }
+      header {
+        text-align: center;
+      }
+      header img {
+        width: 100px;
+      }
+      div {
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+      }
+      pre {
+        background-color: black;
+        color: lightgreen;
+        padding-top: 10px;
+      }
+      code {
+        background-color: #ddd;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        font-weight: bold;
+      }
+      kbd {
+        border: 1px solid black;
+        padding: 2px;
+        background-color: lightblue;
+      }
     </style>
   </head>
   <body>
     <header>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="">
-        <h1>HTML Complete Notes</h1>
-        <hr />
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+        alt=""
+      />
+      <h1>HTML Complete Notes</h1>
+      <hr />
     </header>
 
     <div>
       <h2><i>HTML stands for Hyper Text Markup Language.</i></h2>
       <h3>HTML extention - (.html) or (.htm)</h3>
-      <h3>Main file name - [index.html]</h3>
+      <h3>Standard Naming Convention - <q>index.html</q></h3>
     </div>
 
     <div>
       <h2>1. HTML Introduction</h2>
       <hr />
 
+      <h4>HTML First Program:</h4>
+      <p>
+        <strong>Hello World!</strong>, create a file named <q>index.html</q> and
+        write -
+      </p>
+      <pre>
+        &lt;html&gt;Hello World!&lt;/html&gt;
+      </pre>
+
       <h4>HTML Basic layout:</h4>
       <pre>
+        &lt;!DOCTYPE html&gt;
         &lt;html&gt;
-        &lt;head&gt;
-          &lt;title&gt; Page Title &lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-          &lt;h1&gt; Heading &lt;/h1&gt;
-          &lt;p&gt; Paragraph &lt;/p&gt;
-        &lt;/body&gt;
+          &lt;head&gt;
+            &lt;title&gt; Page Title &lt;/title&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;h1&gt; Heading &lt;/h1&gt;
+            &lt;p&gt; Paragraph &lt;/p&gt;
+          &lt;/body&gt;
         &lt;/html&gt;
       </pre>
 
       <h4>HTML Versions:</h4>
-      <img src="https://www.tutorialspoint.com/html/images/html-version-release-year.jpg" alt="HTML Versions">
+      <img
+        src="https://www.tutorialspoint.com/html/images/html-version-release-year.jpg"
+        alt="HTML Versions"
+      />
 
       <h4>Parts of HTML:</h4>
       <p>Tags - <code>&lt;tag&gt; Content.... &lt;/tag&gt;</code></p>
-      <p>Attributes - <code>&lt;tag attribute="key: value;"&gt;</code> or <code>&lt;tag attribute="value;"&gt;</code></p>
-      <p>Elements - <code>&lt;tag attribute="key: value;"&gt; Content.... &lt;/tag&gt;</code> or Tag + Attribute</p>
+      <p>
+        Attributes - <code>&lt;tag attribute="key: value;"&gt;</code> or
+        <code>&lt;tag attribute="value;"&gt;</code>
+      </p>
+      <p>
+        Elements -
+        <code
+          >&lt;tag attribute="key: value;"&gt; Content.... &lt;/tag&gt;</code
+        >
+        or Tag + Attribute
+      </p>
 
       <h4>Best Editors for HTML:</h4>
       <ol>
@@ -132,26 +158,40 @@
 
       <h4>Paragraph:</h4>
       <p><code>&lt;p&gt;....&lt;/p&gt;</code></p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nisi?</p>
-      
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, nisi?
+      </p>
+
       <h4>Link:</h4>
       <p><code>&lt;a href="url"&gt;....&lt;/a&gt;</code></p>
       <a href="www.website.com">This is a link</a>
-      
+
       <h4>Line Break:</h4>
       <p><code>&lt;br /&gt;</code></p>
-      <p>Lorem, ipsum dolor sit amet <br /> consectetur adipisicing elit. Amet, fugit.</p>
-      
+      <p>
+        Lorem, ipsum dolor sit amet <br />
+        consectetur adipisicing elit. Amet, fugit.
+      </p>
+
       <h4>Horizontal line:</h4>
       <p><code>&lt;hr /&gt;</code></p>
       <hr />
 
       <h4>View HTML Source Code:</h4>
       <h5>View HTML Source Code:</h5>
-      <p>Click <kbd>CTRL + U</kbd> in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.</p>
+      <p>
+        Click <kbd>CTRL + U</kbd> in an HTML page, or right-click on the page
+        and select "View Page Source". This will open a new tab containing the
+        HTML source code of the page.
+      </p>
 
       <h5>Inspect an HTML Element:</h5>
-      <p>Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.</p>
+      <p>
+        Right-click on an element (or a blank area), and choose "Inspect" to see
+        what elements are made up of (you will see both the HTML and the CSS).
+        You can also edit the HTML or CSS on-the-fly in the Elements or Styles
+        panel that opens.
+      </p>
 
       <h4>Comments</h4>
       <p>&lt;!-- comment --&gt;</p>
@@ -198,10 +238,50 @@
       <h2>3. HTML Formatting</h2>
       <hr />
 
+      <h4>Physical Tags:</h4>
+      <p>
+        These tags directly impact the visual appearance of the text, altering
+        font styles, sizes, and other visual properties.
+      </p>
+      <p><code>&lt;b&gt;</code> - <b>bold</b></p>
+      <p><code>&lt;i&gt;</code> - <i>italic</i></p>
 
+      <h4>Logical Tags:</h4>
+      <p>
+        These tags denote the logical or semantic value of the text. They convey
+        meaning without directly affecting the visual appearance.
+      </p>
+      <p><code>&lt;strong&gt;</code> - <strong>strong</strong></p>
+      <p><code>&lt;em&gt;</code> - <em>emphasize</em></p>
 
+      <h4>Formatting Tags:</h4>
+      <p><code>&lt;sub&gt;</code> - Abcd <sub>Subscript</sub></p>
+      <p><code>&lt;sup&gt;</code> - Abcd <sup>Superscript</sup></p>
+      <p><code>&lt;mark&gt;</code> - <mark>marked</mark></p>
+      <p><code>&lt;del&gt;</code> - <del>deleted</del></p>
+      <p><code>&lt;ins&gt;</code> - <ins>inserted</ins></p>
 
+      <h4>Quotation tags:</h4>
+      <p><code>&lt;q&gt;</code> - Abcd <q>Quotes</q></p>
+      <p><code>&lt;blockquote&gt;</code> - Abcd</p>
 
+      <blockquote>Blockquotes</blockquote>
+
+      <p><code>&lt;cite&gt;</code> - Abcd <cite>Cite</cite></p>
+      <p>
+        <code>&lt;abbr title=""&gt;</code> - Abcd
+        <abbr title=" Abbreviation Title">Abbreviation</abbr>
+      </p>
+      <p><code>&lt;address&gt;</code> - Abcd</p>
+
+      <address>Address</address>
+
+      <p>
+        <code>&lt;bdo dir="ltr"&gt;</code> - Abcd <bdo dir="ltr">Address</bdo>
+      </p>
+      <p>
+        <code>&lt;bdo dir="rtl"&gt;</code> - Abcd <bdo dir="rtl">Address</bdo>
+      </p>
     </div>
 
   </body>
