@@ -5,6 +5,12 @@
 
 ## HTML Introduction
 
+### HTML First Program:
+
+**Hello World!**, create a file named index.html and write -
+
+        <html>Hello World!</html>
+
 ### HTML Basic Layout:
 
         <html>
@@ -96,6 +102,37 @@ Shortcut - <kbd>CTRL + /<kbd/>
 `<a>` `<span>` `<img>` `<br>` `<button>` `<input>` `<select>` `<b>` `<i>` `<q>` `<sub>` `<sup>` `<textarea>`
 
 ## HTML Formatting
+
+### Physical Tags:
+These tags directly impact the visual appearance of the text, altering font styles, sizes, and other visual properties.
+
+`<b>` - bold
+
+`<i>` - italic
+
+### Logical Tags:
+These tags denote the logical or semantic value of the text. They convey meaning without directly affecting the visual appearance.
+
+`<strong>` - strong
+
+`<em>` - emphasize
+
+### Formatting Tags:
+`<sub>`
+`<sup>`
+`<mark>`
+`<del>`
+`<ins>`
+
+### Quotation tags:
+`<q>`
+`<blockquote>`
+`<cite>`
+`<abbr title="">`
+`<address>`
+`<bdo dir="ltr">`
+`<bdo dir="rtl">`
+
 ## HTML Table
 ## HTML List
 ## HTML Form
