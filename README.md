@@ -83,17 +83,15 @@ Contains Body content
 `<hr />`
 
 ### View HTML Source Code:
-View HTML Source Code:
-
+#### View HTML Source Code:
 Click <kbd>CTRL + U</kbd> in an HTML page, or right-click on the page and select "View Page Source". This will open a new tab containing the HTML source code of the page.
 
-Inspect an HTML Element:
-
+#### Inspect an HTML Element:
 Right-click on an element (or a blank area), and choose "Inspect" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
 
 ### Comments:
         <!-- comment -->
-Shortcut - <kbd>CTRL + /<kbd/>
+Shortcut - <kbd>CTRL + /</kbd>
 
 ### Blocks Elements:
 `<h1>----<h6>` `<p>` `<div>` `<hr>` `<header>` `<nav>` `<main>` `<footer>` `<section>` `<article>` `<ul>` `<ol>` `<li>` `<dl>` `<dt>` `<dd>` `<table>` `<form>`
@@ -134,6 +132,56 @@ These tags denote the logical or semantic value of the text. They convey meaning
 `<bdo dir="rtl">`
 
 ## HTML Table
+HTML tables allow web developers to arrange data into rows and columns.
+
+### Tags:
+`<table>` - table tag
+
+`<tr>` - table row tag
+
+`<th>` - table header tag
+
+`<td>` - table data tag
+
+### Basic Layout:
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+          </tr>
+          <tr>
+            <td>Arvind</td>
+            <td>11223344</td>
+            <td>a123@mail.com</td>
+          </tr>
+          <tr>
+            <td>Bhanu</td>
+            <td>123123</td>
+            <td>b111@mail.com</td>
+          </tr>
+          <tr>
+            <td>Chandan</td>
+            <td>12344321</td>
+            <td>c121@mail.com</td>
+          </tr>
+        </table>
+
+### Simple Table:
+
+| Name	        | Phone	        | Email         |
+| ------------- | ------------- | ------------- |
+| Arvind	| 11223344	| a123@mail.com |
+| Bhanu 	| 123123	| b111@mail.com |
+| Chandan	| 12344321	| c121@mail.com |
+
+### Rowspan and Colspan:
+#### Rowspan:
+`<td rowspan="2">....</td>`
+
+#### Colspan:
+`<td colspan="3">....</td>`
+
 ## HTML List
 ## HTML Form
 ## HTML Media
