@@ -194,8 +194,9 @@
       </p>
 
       <h4>Comments</h4>
-      <p>&lt;!-- comment --&gt;</p>
-      <!-- comment -->
+      <pre>
+        &lt;!-- comment --&gt;
+      </pre>
       <p>Shortcut - <kbd>CTRL + /</kbd></p>
 
       <h4>Blocks Elements:</h4>
@@ -282,6 +283,104 @@
       <p>
         <code>&lt;bdo dir="rtl"&gt;</code> - Abcd <bdo dir="rtl">Address</bdo>
       </p>
+    </div>
+
+    <div>
+      <h2>4. HTML Table</h2>
+      <hr>
+
+      <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+      
+      <h4>Tags:</h4>
+      <p><code>&lt;table&gt;</code> - table tag</p>
+      <p><code>&lt;tr&gt;</code> - table row tag</p>
+      <p><code>&lt;th&gt;</code> - table header tag</p>
+      <p><code>&lt;td&gt;</code> - table data tag</p>
+
+      <h4>Basic Layout:</h4>
+      <pre>
+        &lt;table&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Phone&lt;/th&gt;
+            &lt;th&gt;Email&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Arvind&lt;/td&gt;
+            &lt;td&gt;11223344&lt;/td&gt;
+            &lt;td&gt;a123@mail.com&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Bhanu&lt;/td&gt;
+            &lt;td&gt;123123&lt;/td&gt;
+            &lt;td&gt;b111@mail.com&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Chandan&lt;/td&gt;
+            &lt;td&gt;12344321&lt;/td&gt;
+            &lt;td&gt;c121@mail.com&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/table&gt;
+      </pre>
+
+      <h4>Simple Table:</h4>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Arvind</td>
+          <td>11223344</td>
+          <td>a123@mail.com</td>
+        </tr>
+        <tr>
+          <td>Bhanu</td>
+          <td>123123</td>
+          <td>b111@mail.com</td>
+        </tr>
+        <tr>
+          <td>Chandan</td>
+          <td>12344321</td>
+          <td>c121@mail.com</td>
+        </tr>
+      </table>
+
+      <h4>Rowspan and Colspan:</h4>
+      <h5>Rowspan Example:</h5>
+      <table>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>43</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>57</td>
+        </tr>
+      </table>
+
+      <h5>Colspan Example:</h5>
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+
     </div>
 
   </body>
