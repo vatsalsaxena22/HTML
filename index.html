@@ -348,7 +348,29 @@
       </table>
 
       <h4>Rowspan and Colspan:</h4>
-      <h5>Rowspan Example:</h5>
+
+      <h5>Rowspan:</h5>
+      <code>&lt;td rowspan="2"&gt;....&lt;/td&gt;</code>
+      <p>Example:</p>
+
+      <table>
+        <tr>
+          <th>Name</th>
+          <td>Jill</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Phone</th>
+          <td>555-1234</td>
+        </tr>
+        <tr>
+          <td>555-8745</td>
+      </tr>
+      </table>
+
+      <h5>Colspan:</h5>
+      <code>&lt;td colspan="3"&gt;....&lt;/td&gt;</code>
+      <p>Example:</p>
+
       <table>
         <tr>
           <th colspan="2">Name</th>
@@ -365,23 +387,69 @@
           <td>57</td>
         </tr>
       </table>
-
-      <h5>Colspan Example:</h5>
-      <table>
-        <tr>
-          <th>Name</th>
-          <td>Jill</td>
-        </tr>
-        <tr>
-          <th rowspan="2">Phone</th>
-          <td>555-1234</td>
-        </tr>
-        <tr>
-          <td>555-8745</td>
-      </tr>
-      </table>
-
     </div>
+
+    <div>
+      <h2>5. HTML List</h2>
+      <hr />
+
+      <h4>Tags:</h4>
+      <p><code>&lt;ul&gt;</code> - Unordered List</p>
+      <p><code>&lt;ol&gt;</code> - Ordered List</p>
+      <p><code>&lt;li&gt;</code> - List Item</p>
+      <p><code>&lt;dl&gt;</code> - Description List</p>
+      <p><code>&lt;dt&gt;</code> - Description Title</p>
+      <p><code>&lt;dd&gt;</code> - Description Data</p>
+
+      <h4>Unordered List:</h4>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Orange</li>
+        <li>Grapes</li>
+      </ul>
+
+      <h4>Ordered List:</h4>
+      <ol>
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Leopard</li>
+        <li>Wolf</li>
+        <li>Fox</li>
+        <li>Elephant</li>
+        <li>Rhino</li>
+        <li>Bear</li>
+      </ol>
+
+      <h4>Description List:</h4>
+      <dl>
+        <dt>Noun -</dt>
+        <dd>Noun is the name of a person, place or things. e.g. Ram, Book, Kanpur etc.</dd>
+        <dt>Pronoun -</dt>
+        <dd>The word which used in place of noun is called Pronoun. e.g. He, She, It etc.</dd>
+      </dl>
+
+      <h4>Nested List:</h4>
+      <ul>
+        <li>Bus</li>
+        <li>Car</li>
+        <ul>
+          <li>Sedan</li>
+          <li>SUV</li>
+          <ul>
+            <li>Off-roader</li>
+            <li>Crossover</li>
+          </ul>
+          <li>Hatchback</li>
+          <li>MUV</li>
+        </ul>
+        <li>Bike</li>
+        <li>Scooter</li>
+      </ul>
+    </div>
+
+
 
   </body>
 </html>
