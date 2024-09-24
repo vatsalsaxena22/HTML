@@ -183,6 +183,62 @@ HTML tables allow web developers to arrange data into rows and columns.
 `<td colspan="3">....</td>`
 
 ## HTML List
+
+### Tags:
+`<ul>` - Unordered List
+
+`<ol>` - Ordered List
+
+`<li>` - List Item
+
+`<dl>` - Description List
+
+`<dt>` - Description Title
+
+`<dd>` - Description Data
+
+### Unordered List:
+
+- Apple
+- Banana
+- Mango
+- Orange
+- Grapes
+ 
+### Ordered List:
+
+1. Lion
+2. Tiger
+3. Leopard
+4. Wolf
+5. Fox
+6. Elephant
+7. Rhino
+8. Bear
+
+### Description List:
+
+Noun -
+
+Noun is the name of a person, place or things. e.g. Ram, Book, Kanpur etc.
+
+Pronoun -
+  
+The word which used in place of noun is called Pronoun. e.g. He, She, It etc.
+
+### Nested List:
+* Bus
+* Car
+  * Sedan
+  * SUV
+    * Off-roader
+    * Crossover
+  * Hatchback
+  * MUV
+* Bike
+* Scooter
+
+
 ## HTML Form
 ## HTML Media
 ## HTML Style
