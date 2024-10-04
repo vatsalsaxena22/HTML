@@ -238,8 +238,97 @@ The word which used in place of noun is called Pronoun. e.g. He, She, It etc.
 * Bike
 * Scooter
 
-
 ## HTML Form
+
+### Tags:
+`<form>` `<label>` `<input>` `<select>` `<option>` `<textarea>`
+
+### Form Example:
+
+        <form action="" method="">
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="" />
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" />
+                <br />
+                <label for="Phone">Phone:</label>
+                <input type="tel" name="phone" id="" />
+                <br />
+                <label for="message">Message:</label>
+                <textarea name="message" id=""></textarea>
+                <br />
+                <input type="submit" value="Submit">
+        </form>
+
+### Input Types:
+
+      <label for="">Button</label>
+      <input type="button" name="" value="Button" id="">
+      <br />
+      <label for="">Checkbox</label>
+      <input type="checkbox" name="" value="Check" id="">
+      <br>
+      <label for="">Color</label>
+      <input type="color" name="" id="">
+      <br>
+      <label for="">Date</label>
+      <input type="date" name="" id="">
+      <br>
+      <label for="">Date Time</label>
+      <input type="datetime" name="" id="">
+      <br>
+      <label for="">Date Time Local</label>
+      <input type="datetime-local" name="" id="">
+      <br>
+      <label for="">Email</label>
+      <input type="email" name="" id="">
+      <br>
+      <label for="">File</label>
+      <input type="file" name="" id="">
+      <br>
+      <label for="">Image</label>
+      <input type="image" name="" id="">
+      <br>
+      <label for="">Month</label>
+      <input type="month" name="" id="">
+      <br>
+      <label for="">Number</label>
+      <input type="number" name="" id="">
+      <br>
+      <label for="">Password</label>
+      <input type="password" name="" id="">
+      <br>
+      <label for="">Radio</label>
+      <input type="radio" name="" id="">
+      <br>
+      <label for="">Range</label>
+      <input type="range" name="" id="">
+      <br>
+      <label for="">Reset</label>
+      <input type="reset" name="" id="">
+      <br>
+      <label for="">Search</label>
+      <input type="search" name="" id="">
+      <br>
+      <label for="">Submit</label>
+      <input type="submit" name="" id="">
+      <br>
+      <label for="">Tel</label>
+      <input type="tel" name="" id="">
+      <br>
+      <label for="">Text</label>
+      <input type="text" name="" id="">
+      <br>
+      <label for="">Time</label>
+      <input type="time" name="" id="">
+      <br>
+      <label for="">URL</label>
+      <input type="url" name="" id="">
+      <br>
+      <label for="">Week</label>
+      <input type="week" name="" id="">
+
 ## HTML Media
 ## HTML Style
 ## HTML Script
