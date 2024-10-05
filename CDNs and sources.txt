@@ -1,5 +1,14 @@
 HTML Logo (Devicon) - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-https://devicon.dev/
+- https://devicon.dev
 
-HTML Versions image - <img src="https://www.tutorialspoint.com/html/images/html-version-release-year.jpg" alt="HTML Versions">
-https://www.tutorialspoint.com/html/html_overview.htm
+HTML Versions image (Tutorials Point) - <img src="https://www.tutorialspoint.com/html/images/html-version-release-year.jpg" alt="HTML Versions" />
+- https://www.tutorialspoint.com/html/html_overview.htm
+
+Image Example (W3Schools) - <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Image Example" />
+- https://www.w3schools.com/html/html_images.asp
+
+Audio Example (Tutorials Point) - <audio src="https://www.tutorialspoint.com/html/media/audio/sample_3sec_audio.mp3" controls></audio>
+- https://www.tutorialspoint.com/html/html_audio_element.htm
+
+Video Example (Geeks for geeks) - <video src="https://media.geeksforgeeks.org/wp-content/uploads/20240725004831/HTMLVideo2.mp4?_=4" controls></video>
+- https://www.geeksforgeeks.org/html5-video/

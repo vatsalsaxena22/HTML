@@ -39,7 +39,8 @@
         font-weight: bold;
       }
       kbd {
-        border: 1px solid black;
+        border: 2px solid black;
+        border-radius: 4px;
         padding: 2px;
         background-color: lightblue;
       }
@@ -287,10 +288,12 @@
 
     <div>
       <h2>4. HTML Table</h2>
-      <hr>
+      <hr />
 
-      <p>HTML tables allow web developers to arrange data into rows and columns.</p>
-      
+      <p>
+        HTML tables allow web developers to arrange data into rows and columns.
+      </p>
+
       <h4>Tags:</h4>
       <p><code>&lt;table&gt;</code> - table tag</p>
       <p><code>&lt;tr&gt;</code> - table row tag</p>
@@ -364,7 +367,7 @@
         </tr>
         <tr>
           <td>555-8745</td>
-      </tr>
+        </tr>
       </table>
 
       <h5>Colspan:</h5>
@@ -425,9 +428,15 @@
       <h4>Description List:</h4>
       <dl>
         <dt>Noun -</dt>
-        <dd>Noun is the name of a person, place or things. e.g. Ram, Book, Kanpur etc.</dd>
+        <dd>
+          Noun is the name of a person, place or things. e.g. Ram, Book, Kanpur
+          etc.
+        </dd>
         <dt>Pronoun -</dt>
-        <dd>The word which used in place of noun is called Pronoun. e.g. He, She, It etc.</dd>
+        <dd>
+          The word which used in place of noun is called Pronoun. e.g. He, She,
+          It etc.
+        </dd>
       </dl>
 
       <h4>Nested List:</h4>
@@ -455,16 +464,16 @@
 
       <h4>Tags:</h4>
       <p>
-        <code>&lt;form&gt;</code> 
-        <code>&lt;label&gt;</code> 
-        <code>&lt;input&gt;</code> 
+        <code>&lt;form&gt;</code>
+        <code>&lt;label&gt;</code>
+        <code>&lt;input&gt;</code>
         <code>&lt;select&gt;</code>
         <code>&lt;option&gt;</code>
         <code>&lt;textarea&gt;</code>
       </p>
 
       <h4>Form Example:</h4>
-      
+
       <form action="" method="">
         <label for="fullName">Full Name:</label>
         <input type="text" name="fullName" id="" />
@@ -478,78 +487,116 @@
         <label for="message">Message:</label>
         <textarea name="message" id=""></textarea>
         <br />
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" />
       </form>
-      
+
       <h4>Input Types:</h4>
 
       <label for="">Button</label>
-      <input type="button" name="" value="Button" id="">
+      <input type="button" name="" value="Button" id="" />
       <br />
       <label for="">Checkbox</label>
-      <input type="checkbox" name="" value="Check" id="">
-      <br>
+      <input type="checkbox" name="" value="Check" id="" />
+      <br />
       <label for="">Color</label>
-      <input type="color" name="" id="">
-      <br>
+      <input type="color" name="" id="" />
+      <br />
       <label for="">Date</label>
-      <input type="date" name="" id="">
-      <br>
+      <input type="date" name="" id="" />
+      <br />
       <label for="">Date Time</label>
-      <input type="datetime" name="" id="">
-      <br>
+      <input type="datetime" name="" id="" />
+      <br />
       <label for="">Date Time Local</label>
-      <input type="datetime-local" name="" id="">
-      <br>
+      <input type="datetime-local" name="" id="" />
+      <br />
       <label for="">Email</label>
-      <input type="email" name="" id="">
-      <br>
+      <input type="email" name="" id="" />
+      <br />
       <label for="">File</label>
-      <input type="file" name="" id="">
-      <br>
+      <input type="file" name="" id="" />
+      <br />
       <label for="">Image</label>
-      <input type="image" name="" id="">
-      <br>
+      <input type="image" name="" id="" />
+      <br />
       <label for="">Month</label>
-      <input type="month" name="" id="">
-      <br>
+      <input type="month" name="" id="" />
+      <br />
       <label for="">Number</label>
-      <input type="number" name="" id="">
-      <br>
+      <input type="number" name="" id="" />
+      <br />
       <label for="">Password</label>
-      <input type="password" name="" id="">
-      <br>
+      <input type="password" name="" id="" />
+      <br />
       <label for="">Radio</label>
-      <input type="radio" name="" id="">
-      <br>
+      <input type="radio" name="" id="" />
+      <br />
       <label for="">Range</label>
-      <input type="range" name="" id="">
-      <br>
+      <input type="range" name="" id="" />
+      <br />
       <label for="">Reset</label>
-      <input type="reset" name="" id="">
-      <br>
+      <input type="reset" name="" id="" />
+      <br />
       <label for="">Search</label>
-      <input type="search" name="" id="">
-      <br>
+      <input type="search" name="" id="" />
+      <br />
       <label for="">Submit</label>
-      <input type="submit" name="" id="">
-      <br>
+      <input type="submit" name="" id="" />
+      <br />
       <label for="">Tel</label>
-      <input type="tel" name="" id="">
-      <br>
+      <input type="tel" name="" id="" />
+      <br />
       <label for="">Text</label>
-      <input type="text" name="" id="">
-      <br>
+      <input type="text" name="" id="" />
+      <br />
       <label for="">Time</label>
-      <input type="time" name="" id="">
-      <br>
+      <input type="time" name="" id="" />
+      <br />
       <label for="">URL</label>
-      <input type="url" name="" id="">
-      <br>
+      <input type="url" name="" id="" />
+      <br />
       <label for="">Week</label>
-      <input type="week" name="" id="">
+      <input type="week" name="" id="" />
     </div>
 
+    <div>
+      <h2>7. HTML Media</h2>
+      <hr>
+
+      <h4>Images:</h4>
+
+      <p>Syntax - <code>&lt;img src="" alt="" /&gt;</code></p>
+      <p>Example - <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Image Example" /></p>
+
+      <h4>Audio:</h4>
+
+      <p>Syntax - <code>&lt;audio src="" controls&gt;&lt;/audio&gt;</code></p>
+      <p>Example - <audio src="https://www.tutorialspoint.com/html/media/audio/sample_3sec_audio.mp3" controls></audio></p>
+
+      <h4>Video:</h4>
+
+      <p>Syntax - <code>&lt;video src="" controls&gt;&lt;/video&gt;</code></p>
+      <p>Example - <video src="https://media.geeksforgeeks.org/wp-content/uploads/20240725004831/HTMLVideo2.mp4?_=4" controls></video></p>
+
+      <p>More Attributes for audio & video:</p>
+      <dl>
+        <dt>autoplay</dt>
+        <dd>- automatically play the media.</dd>
+        <dt>muted</dt>
+        <dd>- automatically mute the media.</dd>
+        <dt>loop</dt>
+        <dd>- play the media in the loop.</dd>
+      </dl>
+
+      <!-- <object data="" type=""></object>
+
+      <embed src="" type="" />
+
+      <iframe src="" frameborder="0"></iframe>
+
+      <a href="./CDNs and sources.txt" download="">Download</a> -->
+
+    </div>
 
   </body>
 </html>
