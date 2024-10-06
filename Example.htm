@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attractive Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 1rem 0;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+
+      nav h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        margin: 0;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.3s;
+      }
+
+      nav ul li a:hover {
+        background-color: #555;
+      }
+
+      section {
+        padding: 2rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      section h2 {
+        margin-top: 0;
+      }
+
+      button {
+        padding: 0.5rem 1rem;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>My Website</h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <h2>Welcome to My Website</h2>
+      <p>
+        This is a simple, attractive website built with HTML, CSS, and
+        JavaScript.
+      </p>
+      <button onclick="showAlert()">Click Me</button>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We provide amazing web development services.</p>
+    </section>
+    <section id="services">
+      <h2>Our Services</h2>
+      <p>We offer a wide range of web development services.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch with us for more information.</p>
+    </section>
+    <script>
+      function showAlert() {
+        alert("Button clicked!");
+      }
+    </script>
+  </body>
+</html>
