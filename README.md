@@ -382,6 +382,19 @@ Syntax - `<video src="" controls></video>`
 - loop
 > play the media in the loop.
 
+### Object:
+Syntax - `<object data=""></object>`
+
+### Embed:
+Syntax - `<embed src="" />`
+
+### Iframe:
+Syntax - `<iframe src=""></iframe>`
+
+### Download Link:
+Syntax - `<a href="" download></a>`
+
+
 ## HTML IDs and Classes
 
 ## HTML Style
