@@ -364,6 +364,24 @@ The word which used in place of noun is called Pronoun. e.g. He, She, It etc.
 
 ## HTML Media
 
+### Image:
+Syntax - `<img src="" alt="" />`
+
+### Audio:
+Syntax - `<audio src="" controls></audio>`
+
+### Video:
+Syntax - `<video src="" controls></video>`
+
+### More Attributes for audio & video:
+
+- autoplay
+> automatically play the media.
+- muted
+> automatically mute the media.
+- loop
+> play the media in the loop.
+
 ## HTML IDs and Classes
 
 ## HTML Style
