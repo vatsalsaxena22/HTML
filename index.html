@@ -44,6 +44,25 @@
         padding: 2px;
         background-color: lightblue;
       }
+      .css{
+        border: 5px solid dodgerblue;
+        border-radius: 0;
+      }
+      .css span{
+        background-color: dodgerblue;
+        color: white;
+        padding: 5px;
+        font-weight: bold;
+      }
+      .js{
+        border: 5px solid yellow;
+        border-radius: 0;
+      }
+      .js span{
+        background-color: yellow;
+        padding: 5px;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -618,17 +637,67 @@
 
       <h4>Iframe:</h4>
 
-      <p>
-        Syntax - <code>&lt;iframe src="./Example.htm"&gt;&lt;/iframe&gt;</code>
-      </p>
+      <p>Syntax - <code>&lt;iframe src=""&gt;&lt;/iframe&gt;</code></p>
       <p>Example - for web page <iframe src="./Example.htm"></iframe></p>
 
       <h4>Download Link:</h4>
 
       <p>Syntax - <code>&lt;a href="" download&gt;&lt;/a&gt;</code></p>
       <p>Example - <a href="./CDNs and sources.txt" download>Download</a></p>
+    </div>
 
-      
+    <div>
+      <h2>8. HTML Classes & IDs</h2>
+      <hr />
+
+      <h4>Classes:</h4>
+      <p>
+        The HTML class attribute is used to specify a class for an HTML element.
+        Multiple HTML elements can share the same class.
+      </p>
+      <p>Syntax - <code>&lt;p class=""&gt;&lt;/p&gt;</code></p>
+
+      <div class="css">
+        <span>CSS</span>  
+        <pre>
+        .className{
+          // CSS
+        }
+        </pre>
+      </div>
+
+      <div class="js">
+        <span>JavaScript</span>  
+        <pre>
+        document.getElementsByClassName(".className")
+        // js 
+        </pre>
+      </div>
+
+      <h4>IDs:</h4>
+      <p>
+        The HTML id attribute is used to specify a unique id for an HTML
+        element. You cannot have more than one element with the same id in an
+        HTML document.
+      </p>
+      <p>Syntax - <code>&lt;p id=""&gt;&lt;/p&gt;</code></p>
+
+      <div class="css">
+        <span>CSS</span>  
+        <pre>
+        #IDName{
+          // css
+        }
+        </pre>
+      </div>
+
+      <div class="js">
+        <span>JavaScript</span>  
+        <pre>
+        document.getElementById("#IDName")
+        // js 
+        </pre>
+      </div>
     </div>
   </body>
 </html>
