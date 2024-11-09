@@ -63,6 +63,49 @@
         padding: 5px;
         font-weight: bold;
       }
+      #nav{
+        margin: 5px;
+        padding: 0;
+        position: fixed;
+        border-radius: 0;
+        border: none;
+        background-color: unset;
+        bottom: 50px;
+        right: 10px;
+        display: none;
+      }
+      #nav a{
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 18px;
+        border: 1px solid white;
+
+      }
+      #nav a:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+      #navBtn{
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 2px solid black;
+        border-radius: 50%;
+        font-size: 18px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+      #navBtn:hover{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+      }
+
     </style>
   </head>
   <body>
@@ -81,7 +124,24 @@
       <h3>Standard Naming Convention - <q>index.html</q></h3>
     </div>
 
-    <div>
+      <section onclick="btnOn()">
+        <div id="nav" style="display: none;">
+          <a href="#1">1</a>
+          <a href="#2">2</a>
+          <a href="#3">3</a>
+          <a href="#4">4</a>
+          <a href="#5">5</a>
+          <a href="#6">6</a>
+          <a href="#7">7</a>
+          <a href="#8">8</a>
+          <a href="#top">&uparrow;</a>
+        </div>
+        <button id="navBtn">&uparrow;&downarrow;</button>
+    
+      </section>
+
+
+    <div id="1">
       <h2>1. HTML Introduction</h2>
       <hr />
 
@@ -138,7 +198,7 @@
       </ol>
     </div>
 
-    <div>
+    <div id="2">
       <h2>2. HTML Basics</h2>
       <hr />
 
@@ -255,7 +315,7 @@
       <code>&lt;textarea&gt;</code>
     </div>
 
-    <div>
+    <div id="3">
       <h2>3. HTML Formatting</h2>
       <hr />
 
@@ -305,7 +365,7 @@
       </p>
     </div>
 
-    <div>
+    <div id="4">
       <h2>4. HTML Table</h2>
       <hr />
 
@@ -411,7 +471,7 @@
       </table>
     </div>
 
-    <div>
+    <div id="5">
       <h2>5. HTML List</h2>
       <hr />
 
@@ -477,7 +537,7 @@
       </ul>
     </div>
 
-    <div>
+    <div id="6">
       <h2>6. HTML Form</h2>
       <hr />
 
@@ -578,7 +638,7 @@
       <input type="week" name="" id="" />
     </div>
 
-    <div>
+    <div id="7">
       <h2>7. HTML Media</h2>
       <hr />
 
@@ -646,7 +706,7 @@
       <p>Example - <a href="./CDNs and sources.txt" download>Download</a></p>
     </div>
 
-    <div>
+    <div id="8">
       <h2>8. HTML Classes & IDs</h2>
       <hr />
 
@@ -669,7 +729,7 @@
       <div class="js">
         <span>JavaScript</span>  
         <pre>
-        document.getElementsByClassName(".className")
+        document.getElementsByClassName("className")
         // js 
         </pre>
       </div>
@@ -694,10 +754,25 @@
       <div class="js">
         <span>JavaScript</span>  
         <pre>
-        document.getElementById("#IDName")
+        document.getElementById("IDName")
         // js 
         </pre>
       </div>
     </div>
+
+    <script>
+      let navBtn = document.getElementById("navBtn")
+      let nav = document.getElementById("nav")
+
+      let btnOn = ()=>{
+
+        if(nav.style.display == "none"){
+          nav.style.display = "block"
+        } else {
+          nav.style.display = "none"
+        }
+
+      }
+    </script>
   </body>
 </html>
