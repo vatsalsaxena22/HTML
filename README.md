@@ -397,6 +397,39 @@ Syntax - `<a href="" download></a>`
 
 ## HTML IDs and Classes
 
+### Classes:
+The HTML class attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same class.
+
+Syntax - `<p class=""></p>`
+
+CSS
+
+                .className{
+                  // CSS
+                }
+        
+JavaScript
+
+        document.getElementsByClassName("className")
+        // js 
+        
+### IDs:
+The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+
+Syntax - `<p id=""></p>`
+
+CSS
+
+        #IDName{
+          // css
+        }
+        
+JavaScript
+
+        document.getElementById("IDName")
+        // js 
+        
+
 ## HTML Style
 
 ## HTML Script
