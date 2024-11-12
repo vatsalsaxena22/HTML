@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: 100px 0;
+        text-align: center;
+    }
+    header h1{
+        font-size: 60px;
+    }
+    header h1 span{
+        padding: 5px;
+        font-size: 16px;
+        background-color: var(--primary-color);
+        color: white;
+    }
+    header img{
+        width: 100px;
+    }
+    div{
+        padding: 5px;
+        margin: 20px 5px;
+    }
+    nav{
+        left: unset;
+        right: -5px;
+    }
+    #navBtn{
+        top: unset;
+        bottom: 60px;
+    }
+    #navBtn:hover {
+        transform: unset;
+    }
+
+    img,
+    audio,
+    video,
+    object,
+    embed,
+    iframe {
+    width: 280px;
+    }
+}

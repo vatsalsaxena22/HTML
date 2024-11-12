@@ -1,0 +1,144 @@
+:root {
+  --primary-color: rgb(228, 77, 38); /* HTML Orange */
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 80px;
+}
+header h1 span {
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px;
+}
+header img {
+    margin-top: 20px;
+    width: 10em;
+    /* animation: htmlLogo 2s ease-in-out; */
+}
+@keyframes htmlLogo {
+    0% {
+      transform: scale(500%);
+      margin-top: 25%;
+    }
+    100% {
+      transform: scale(100%);
+    }
+}
+
+img,
+audio,
+video,
+object,
+embed,
+iframe {
+  width: 500px;
+}
+
+div {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 5px grey;
+}
+.first-div {
+  text-align: center;
+  color: var(--primary-color);
+}
+.first-div h2 {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+}
+pre {
+  background-color: black;
+  color: lightgreen;
+  padding-top: 10px;
+  overflow-x: auto;
+}
+code {
+  background-color: #ddd;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  line-height: 2.5;
+  font-weight: bold;
+}
+kbd {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px;
+  background-color: lightblue;
+}
+.code{
+    box-shadow: unset;
+    padding-top: 5px;
+    background-color: black;
+}
+.code span{
+    padding: 5px;
+    font-weight: bold;
+}
+.css {
+  border: 5px solid dodgerblue;
+}
+.css span {
+  background-color: dodgerblue;
+  color: white;
+}
+.js {
+  border: 5px solid gold;
+}
+.js span {
+  background-color: gold;
+}
+
+nav {
+  width: 300px;
+  height: 400px;
+  padding: 10px 0;
+  font-size: 20px;
+  position: fixed;
+  top: 130px;
+  left: 50px;
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  overflow-y: auto;
+}
+nav button {
+  margin: 0;
+}
+nav a {
+  padding: 5px;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+nav a:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+#navBtn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  transition: all 0.2s ease;
+}
+#navBtn:active {
+  background-color: white;
+  color: var(--primary-color);
+}
+#navBtn:hover {
+  transform: translateX(5px);
+}

@@ -2,155 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Tutorial</title>
     <link
       rel="shortcut icon"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
       type="image/x-icon"
     />
-    <style>
-      :root{
-        --primary-color: rgb(228, 77, 38); /* HTML Orange */
-      }
-
-      p {
-        padding: 5px;
-        margin: 5px;
-      }
-      header {
-        text-align: center;
-      }
-      header h1 {
-        font-size: 100px;
-      }
-      header h1 span {
-        font-size: 20px;
-        background-color: var(--primary-color);
-        color: white;
-        padding: 5px;
-      }
-      img {
-        width: 75%;
-      }
-      header img {
-        margin-top: 20px;
-        width: 10em;
-        animation: htmlLogo 2s ease-in-out;
-      }
-      @keyframes htmlLogo {
-        0% {
-          transform: scale(500%);
-          margin-top: 25%;
-        }
-        100% {
-          transform: scale(100%);
-        }
-      }
-      div {
-        border: 1px solid black;
-        border-radius: 20px;
-        background-color: white;
-        margin: 20px;
-        padding: 20px;
-        box-shadow: 0px 0px 5px 5px grey;
-      }
-      .first-div {
-        text-align: center;
-        color: var(--primary-color);
-      }
-      .first-div h2 {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 10px;
-      }
-      pre {
-        background-color: black;
-        color: lightgreen;
-        padding-top: 10px;
-      }
-      code {
-        background-color: #ddd;
-        border: 1px solid black;
-        border-radius: 20px;
-        padding: 5px;
-        font-weight: bold;
-      }
-      kbd {
-        border: 2px solid black;
-        border-radius: 4px;
-        padding: 2px;
-        background-color: lightblue;
-      }
-      .css {
-        border: 5px solid dodgerblue;
-        box-shadow: unset;
-        padding-top: 5px;
-        background-color: black;
-      }
-      .css span {
-        background-color: dodgerblue;
-        color: white;
-        padding: 5px;
-        font-weight: bold;
-      }
-      .js {
-        border: 5px solid gold;
-        box-shadow: unset;
-        padding-top: 5px;
-        background-color: black;
-      }
-      .js span {
-        background-color: gold;
-        padding: 5px;
-        margin-top: px;
-        font-weight: bold;
-      }
-      nav {
-        width: 300px;
-        height: 400px;
-        padding: 10px 0;
-        font-size: 20px;
-        position: fixed;
-        top: 130px;
-        left: 50px;
-        background-color: white;
-        border: 2px solid var(--primary-color);
-        border-radius: 10px;
-      }
-      nav button{
-        margin: 0;
-      }
-      nav a {
-        padding: 5px;
-        font-weight: bold;
-        display: block;
-        text-decoration: none;
-        color: var(--primary-color);
-      }
-      nav a:hover {
-        background-color: var(--primary-color);
-        color: white;
-      }
-      #navBtn {
-        background-color: var(--primary-color);
-        color: white;
-        padding: 10px;
-        font-size: 20px;
-        border: none;
-        position: fixed;
-        top: 80px;
-        left: 0px;
-        transition: all 0.2s ease;
-      }
-      #navBtn:active{
-        background-color: white;
-        color: var(--primary-color);
-      }
-      #navBtn:hover {
-        transform: translateX(5px);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
   </head>
   <body>
     <header>
@@ -167,7 +27,7 @@
       <h3>Standard Naming Convention - <q>index.html</q></h3>
     </div>
 
-    <nav id="nav" style="display: none">
+    <nav style="display: none">
       <a href="#top">Go to Top</a>
       <a href="#1">1. HTML Introduction</a>
       <a href="#2">2. HTML Basics</a>
@@ -178,7 +38,7 @@
       <a href="#7">7. HTML Media</a>
       <a href="#8">8. HTML Classes & IDs</a>
     </nav>
-    <button onclick="btnOn()" id="navBtn">Navigation</button>
+    <button id="navBtn">Navigation</button>
 
     <div id="1">
       <h2>1. HTML Introduction</h2>
@@ -756,7 +616,7 @@
       </p>
       <p>Syntax - <code>&lt;p class=""&gt;&lt;/p&gt;</code></p>
 
-      <div class="css">
+      <div class="css code">
         <span>CSS</span>
         <pre>
         .className{
@@ -765,7 +625,7 @@
         </pre>
       </div>
 
-      <div class="js">
+      <div class="js code">
         <span>JavaScript</span>
         <pre>
         document.getElementsByClassName("className")
@@ -781,7 +641,7 @@
       </p>
       <p>Syntax - <code>&lt;p id=""&gt;&lt;/p&gt;</code></p>
 
-      <div class="css">
+      <div class="css code">
         <span>CSS</span>
         <pre>
         #IDName{
@@ -790,7 +650,7 @@
         </pre>
       </div>
 
-      <div class="js">
+      <div class="js code">
         <span>JavaScript</span>
         <pre>
         document.getElementById("IDName")
@@ -799,19 +659,10 @@
       </div>
     </div>
 
-    <script>
-      let navBtn = document.getElementById("navBtn");
-      let nav = document.getElementById("nav");
+    <footer>
+      
+    </footer>
 
-      let btnOn = () => {
-        if (nav.style.display == "none") {
-          nav.style.display = "block";
-          navBtn.innerText = "Close";
-        } else {
-          nav.style.display = "none";
-          navBtn.innerText = "Navigation";
-        }
-      };
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
