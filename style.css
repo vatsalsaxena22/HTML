@@ -1,5 +1,6 @@
 :root {
   --primary-color: rgb(228, 77, 38); /* HTML Orange */
+  --css-color: rgb(21, 114, 182); /* CSS Blue */
 }
 
 header {
@@ -17,7 +18,7 @@ header h1 span {
 header img {
     margin-top: 20px;
     width: 10em;
-    /* animation: htmlLogo 2s ease-in-out; */
+    animation: htmlLogo 2s ease-in-out;
 }
 @keyframes htmlLogo {
     0% {
@@ -43,7 +44,7 @@ div {
   background-color: white;
   margin: 20px;
   padding: 20px;
-  box-shadow: 0px 0px 5px 5px grey;
+  box-shadow: 0px 0px 2px 2px grey;
 }
 .first-div {
   text-align: center;
@@ -60,6 +61,9 @@ pre {
   padding-top: 10px;
   overflow-x: auto;
 }
+pre span{
+  color: #ddd;
+}
 code {
   background-color: #ddd;
   border: 1px solid black;
@@ -75,19 +79,19 @@ kbd {
   background-color: lightblue;
 }
 .code{
-    box-shadow: unset;
-    padding-top: 5px;
-    background-color: black;
+  box-shadow: unset;
+  padding-top: 5px;
+  background-color: black;
 }
 .code span{
-    padding: 5px;
-    font-weight: bold;
+  padding: 5px;
+  font-weight: bold;
 }
 .css {
-  border: 5px solid dodgerblue;
+  border: 5px solid var(--css-color);
 }
 .css span {
-  background-color: dodgerblue;
+  background-color: var(--css-color);
   color: white;
 }
 .js {
@@ -104,7 +108,7 @@ nav {
   font-size: 20px;
   position: fixed;
   top: 130px;
-  left: 50px;
+  right: 50px;
   background-color: white;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
@@ -114,7 +118,7 @@ nav button {
   margin: 0;
 }
 nav a {
-  padding: 5px;
+  padding: 10px;
   font-weight: bold;
   display: block;
   text-decoration: none;
@@ -125,6 +129,7 @@ nav a:hover {
   color: white;
 }
 #navBtn {
+  font-family: serif;
   background-color: var(--primary-color);
   color: white;
   padding: 10px;
@@ -132,7 +137,7 @@ nav a:hover {
   border: none;
   position: fixed;
   top: 80px;
-  left: 0px;
+  right: 0px;
   transition: all 0.2s ease;
 }
 #navBtn:active {
@@ -140,5 +145,5 @@ nav a:hover {
   color: var(--primary-color);
 }
 #navBtn:hover {
-  transform: translateX(5px);
+  transform: translateX(-5px);
 }

@@ -37,6 +37,7 @@
       <a href="#6">6. HTML Form</a>
       <a href="#7">7. HTML Media</a>
       <a href="#8">8. HTML Classes & IDs</a>
+      <a href="#9">9. HTML with CSS</a>
     </nav>
     <button id="navBtn">Navigation</button>
 
@@ -657,6 +658,74 @@
         // js 
         </pre>
       </div>
+    </div>
+
+    <div id="9">
+      <h2>9. HTML with CSS</h2>
+      <hr>
+
+      <h4>How to link CSS with HTML?</h4>
+      <p>
+        <strong>There are three ways to link css to a html file -</strong>
+        <ol>
+          <li>Inline CSS</li>
+          <li>Internal CSS</li>
+          <li>External CSS</li>
+        </ol>
+      </p>
+
+      <h4>Inline CSS:</h4>
+      <pre>
+            &lt;h1 <span>style="color: red; background-color: blue;</span>"&gt; Heading &lt;/h1&gt;
+      </pre>
+
+      <h4>Internal CSS:</h4>
+      <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt; Page Title &lt;/title&gt;
+            &lt;style&gt;
+              <span>h1{
+                color: red;
+                background-color: blue;
+              }</span>
+            &lt;/style&gt;
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;h1&gt; Heading &lt;/h1&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+      </pre>
+
+      <h4>External CSS:</h4>
+      <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;title&gt; Page Title &lt;/title&gt;
+            <span>&lt;link rel="stylesheet" href="style.css" /&gt;</span>
+          &lt;/head&gt;
+          
+          &lt;body&gt;
+            &lt;h1&gt; Heading &lt;/h1&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+      </pre>
+
+      <div class="css code">
+        <span>style.css</span>
+        <pre>
+        h1{
+          color: red;
+          background-color: blue;
+        }
+        </pre>
+      </div>
+
+      
+
     </div>
 
     <footer>
