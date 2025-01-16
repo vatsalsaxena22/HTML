@@ -430,7 +430,58 @@ JavaScript
         // js 
         
 
-## HTML Style
+## HTML with CSS
+### How to link CSS with HTML?
+
+### There are three ways to link css to a html file -
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+### Inline CSS:
+
+        <h1 style="color: red; background-color: blue;"> Heading </h1>
+      
+### Internal CSS:
+
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title> Page Title </title>
+            <style>
+              h1{
+                color: red;
+                background-color: blue;
+              }
+            </style>
+          </head>
+          
+          <body>
+            <h1> Heading </h1>
+          </body>
+        </html>
+      
+### External CSS:
+        
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <title> Page Title </title>
+            <link rel="stylesheet" href="style.css" />
+          </head>
+          
+          <body>
+            <h1> Heading </h1>
+          </body>
+        </html>
+      
+### style.css
+        
+        h1{
+          color: red;
+          background-color: blue;
+        }
+        
 
 ## HTML Script
 
